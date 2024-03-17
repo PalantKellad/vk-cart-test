@@ -1,0 +1,27 @@
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.main-title__logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main-title__heading {
+    text-align: center;
+}
+
+.main-title__name {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.main-title__slogan {
+    margin: 0;
+    line-height: 1.2;
+}

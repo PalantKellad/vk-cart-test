@@ -1,0 +1,43 @@
+.product-card {
+}
+
+.product-card__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.product-card__description {
+    font-size: 20px;
+}
+
+.product-card__order-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card__price {
+    flex-basis: 50%;
+    font-size: 25px;
+}
+
+.product-card__instock {
+    flex-basis: 50%;
+    font-size: 18px;
+    padding-inline-end: 33px;
+    text-align: end;
+}
+
+.product-card__order-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.product-card__order-quantity {
+    display: flex;
+    gap: 10px;
+}

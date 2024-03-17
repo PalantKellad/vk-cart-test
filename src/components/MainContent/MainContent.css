@@ -1,0 +1,12 @@
+.main-content {
+    width: 100%;
+    padding: 40px;
+    color: #fff;
+    background-color: #0958d9;
+}
+
+.side-content {
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+}
